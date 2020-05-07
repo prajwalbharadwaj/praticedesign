@@ -229,7 +229,7 @@ body {
       display: flex;
       background-color: #EFEFEF;
       height: 30px;
-      width: 915px;
+      /* width: 915px; */
       justify-content: space-around;
       align-content: center;
   }
@@ -306,6 +306,11 @@ body {
 .img{
     display: flex;
 }
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 .name{
 font-size: 12px;
 margin: 20px;
@@ -313,13 +318,10 @@ margin: 20px;
 .address{
     font-size: 12px;
     margin: 20px;
-
 }
 .number{
-    font-size: 12px;
-    margin: 20px;
-
-
+  font-size: 12px;
+  margin: 20px;
 }
 .place{
     font-size: 12px;

@@ -1,12 +1,13 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .Rectangle-1 {
-  width: 1366px;
+  /* width: 1366px; */
   height: 490px;
-  background-image: linear-gradient(to top, #0f3c8d, #194dd5);
+  padding-bottom: 100px;
+  background-image: linear-gradient(135deg, #0f3c8d, #194dd5);
 }
 .logo{
   font-size: 30px;
@@ -17,7 +18,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
     padding: 25px;
 }
 
@@ -25,13 +26,13 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 50%;
-
+    align-items: center;
 }
 .nav-links li{
     list-style: none;
 }
 .nav-links a{
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     /* font-weight: bold; */
     font-size: 16px;
     text-decoration: none;
@@ -53,6 +54,7 @@ nav{
 }
 .area1{
     width: 60%;
+    padding-top: 50px;
 }
 .main-heading p{
   font-family: Nunito;
@@ -76,15 +78,20 @@ nav{
 .btn .button1{
   width: 236px;
   height: 42px;
+  font-size: 16px;
   border-radius: 42px;
   border: solid 1px #007bff; 
-  background-color: #1343AC;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 50px;
 }
 .btn .button2{
   width: 236px;
   height: 42px;
+  font-size: 16px;
   border-radius: 42px;
   background-color: #007bff;
+  color: #fff;
   border: none;
 }
 .area2{
@@ -93,27 +100,24 @@ nav{
 }
 .bottom{
     display: flex;
-    width: 1366px;
+    /* width: 1366px; */
     height: 177px;
     justify-content: space-evenly;
     background-color: rgb(12, 34, 71);
+    padding: 25px 25px 0 25px; 
 }
 .card-1 {
     display: block;
     text-align: center;
-    padding: 25px;
 
 }
 .card-2 {
     display: block;
     text-align: center;
-    padding: 25px;
 }
 .card-3 {
     display: block;
     text-align: center;
-    padding: 25px;
-
 }
 .first{
     color: #ffffff;

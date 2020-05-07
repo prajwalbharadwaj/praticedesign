@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav{
@@ -22,6 +23,7 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 40%;
+    margin-left: 45%;
 
 }
 .nav-links li{
@@ -34,162 +36,205 @@ nav{
     text-decoration: none;
     color: white;
 }
-.col{
-    display: flex;
+.float-child-one {
+    width: 70%;
     float: left;
-    width: 62%;
-}
-
+    padding: 10px;
+    /* border: 2px solid red; */
+}  
+.float-child-two {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    /* border: 2px solid red; */
+}  
 .row{
-    padding: 2px;
-    margin: 10px;
+    /* padding: 2px; */
+    /* margin: 10px; */
     display: flex;
     box-shadow: 0 2px 4px 0 gray;
     transition: 0.3s;
     border-radius: 8px;
     border-left: 8px solid #ecb22e;
-    width: 75%;
-    float: left;
+    /* width: 75%; */
+    /* float: left; */
 }
 .row:hover{
     box-shadow: 0 8px 16px 0 gray;
 }
+.image{
+    padding: 8px;
+    margin: 8px;
+}
+.avatar {
+    vertical-align: center;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+.column {
+    flex: 33.33%;
+    padding: 15px;
+    text-align: center;
+  }
+  .column h4{
+    /* color: green; */
+    text-align: center;
+    /* padding-top: 4px; */
+}
+.image1{
+    padding: 8px;
+    margin: 8px;
+}
+.avatar1 {
+    vertical-align: center;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+}
 .row1{
-    padding: 2px;
-    margin: 10px;
+    /* padding: 2px; */
+    /* margin: 10px; */
     display: flex;
     box-shadow: 0 2px 4px 0 gray;
     transition: 0.3s;
     border-radius: 8px;
     border-left: 8px solid #e01e5a;
-    width: 75%;
-    float: left;
+    /* width: 75%; */
+    /* float: left; */
 }
 .row1:hover{
     box-shadow: 0 8px 16px 0 gray;
 }
 
 .row2{
-    padding: 2px;
-    margin: 10px;
+    /* padding: 2px; */
+    /* margin: 10px; */
     display: flex;
     box-shadow: 0 2px 4px 0 gray;
     transition: 0.3s;
     border-radius: 8px;
     border-left: 8px solid #00bf6d;
-    width: 75%;
-    float: left;
+    /* width: 75%; */
+    /* float: left; */
 }
 .row2:hover{
     box-shadow: 0 8px 16px 0 gray;
 }
-
- .column {
-    flex: 33.33%;
-    padding: 15px;
-    text-align: center;
-  }
-  .avatar {
-    vertical-align: center;
-    width: 50px;
-    height:50px;
-    border-radius: 50%;
-  }
-  .avatar1 {
-    vertical-align: center;
-    width: 30px;
-    height:30px;
-    border-radius: 50%;
-  }
-  .column h3{
-     color: gray;
+.column h3{
+     color: black;
      padding-top: 4px ;
   }
 
-  .column h5{
+  .column h4{
       color: gray;
-      padding-top: 6px;
+      padding-top:2px;
   }
   .dot {
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     background-color: green;
     border-radius: 50%;
     display: inline-block;
     margin-right: 10px;
+    margin-top: 7px;
   }
   .dot1 {
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     background-color: #e01e5a;
     border-radius: 50%;
     display: inline-block;
     margin-right: 10px;
+    margin-top: 7px;
   }
   .dot2 {
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     background-color: #ecb22e;
     border-radius: 50%;
     display: inline-block;
     margin-right: 10px;
+    margin-top: 7px;
   }
 
-  .column h4{
-      /* color: green; */
-      text-align: center;
-      padding-top: 4px;
-  }
- .image{
-      padding: 8px;
-      margin: 8px;
-  }
-  .image1{
-    padding: 8px;
-    margin: 8px;
-}
 .task{
-    margin: 10px;
-    padding: 22px;
+    /* margin: 10px; */
+    padding: 20px;
     box-shadow: 0 4px 8px 0 gray;
     transition: 0.3s;
     border-radius: 8px;
     border-bottom: 8px solid green;
-    width: 23%; 
+    width: 100%; 
     float: left;
-    float: left;
+    /* float: left; */
     align-items: center;
     display: flex;
     justify-content: space-evenly;
 } 
 
 .task1{
-    margin: 10px;
-    padding: 22px;
+    /* margin: 10px; */
+    padding: 20px;
     box-shadow: 0 4px 8px 0 gray;
     transition: 0.3s;
     border-radius: 8px;
     border-bottom: 8px solid #ecb22e;
-    width: 23%; 
+    width: 100%; 
     float: left;
-    float: left;
+    /* float: left; */
     align-items: center;
     display: flex;
     justify-content: space-evenly;
 } 
 
 .task2{
-    margin: 10px;
-    padding: 22px;
+    /* margin: 10px; */
+    padding: 20px;
     box-shadow: 0 4px 8px 0 gray;
     transition: 0.3s;
     border-radius: 8px;
     border-bottom: 8px solid #e01e5a;
-    width: 23%; 
+    width: 100%; 
     float: left;
-    float: left;
+    /* float: left; */
     align-items: center;
     display: flex;
     justify-content: space-evenly;
 } 
-
+.task3{
+    /* margin: 10px; */
+    padding: 1px;
+    margin-top: 8px;
+    box-shadow: 0 4px 8px 0 gray;
+    transition: 0.3s;
+    border-radius: 8px;
+    width: 100%; 
+    height: 340px;
+    float: left;
+    /* float: left; */
+    text-align: center;
+    /* display: flex; */
+    justify-content: space-evenly;
+} 
+.comment_header{
+    background-color: #35496e;
+    color: white;
+    height: 10%;
+    padding-top: 5px;
+}
+.no_data{
+    margin-top: 50px;
+}
+.one{
+    display: flex;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+.two{
+    display: flex;
+    margin-left: 63px;
+}
+.one h5{
+    color: gray;
+}
